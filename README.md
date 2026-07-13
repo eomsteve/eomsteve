@@ -1,5 +1,9 @@
 <p align="center">
-  <img src="./assets/header-balanced.svg" width="100%" alt="Seonghyun Eom — Software Engineer" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/header-pixel-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/header-pixel.svg" />
+    <img src="./assets/header-pixel.svg" width="100%" alt="Seonghyun Eom — Software Engineer" />
+  </picture>
 </p>
 
 <p align="center">
