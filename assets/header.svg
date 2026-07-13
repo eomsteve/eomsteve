@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-labelledby="title desc">
+  <title id="title">Seonghyun Eom — Real-time Video AI and Inference Services</title>
+  <desc id="desc">A dark technical banner showing a video inference pipeline from stream ingest to events.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0c1830"/>
+      <stop offset="1" stop-color="#111a33"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#48d7e8"/>
+      <stop offset="1" stop-color="#8d7cff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#48d7e8" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#48d7e8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#8aa0bf" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="260" rx="22" fill="url(#background)"/>
+  <rect width="1200" height="260" rx="22" fill="url(#grid)"/>
+  <ellipse cx="950" cy="130" rx="285" ry="210" fill="url(#glow)" filter="url(#softGlow)"/>
+  <rect x="0" y="0" width="8" height="260" rx="4" fill="url(#accent)"/>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="64" y="82" fill="#f4f8ff" font-size="38" font-weight="700" letter-spacing="1.2">SEONGHYUN EOM</text>
+    <text x="66" y="119" fill="#8fa8c7" font-size="17" font-weight="600" letter-spacing="2.4">AI INFERENCE PLATFORM ENGINEER</text>
+    <rect x="64" y="146" width="470" height="2" rx="1" fill="url(#accent)" opacity="0.9"/>
+    <text x="65" y="183" fill="#c8d6e8" font-size="18">Real-time video · reliable services · measured systems</text>
+    <text x="65" y="218" fill="#7188a6" font-size="14">DeepStream  /  GStreamer  /  FastAPI  /  RTSP  /  WebRTC</text>
+  </g>
+
+  <g transform="translate(655 61)" font-family="Inter, Segoe UI, Arial, sans-serif">
+    <path d="M72 69 H142 M220 69 H290 M368 69 H438" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.85"/>
+    <path d="M132 61 L142 69 L132 77 M280 61 L290 69 L280 77 M428 61 L438 69 L428 77" fill="none" stroke="#68dbe7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <g>
+      <rect x="0" y="25" width="72" height="88" rx="14" fill="#101f38" stroke="#2f6076"/>
+      <circle cx="36" cy="56" r="11" fill="none" stroke="#55d8e5" stroke-width="3"/>
+      <circle cx="36" cy="56" r="3" fill="#55d8e5"/>
+      <text x="36" y="93" text-anchor="middle" fill="#b9ccdf" font-size="12" font-weight="600">STREAM</text>
+    </g>
+    <g>
+      <rect x="142" y="25" width="78" height="88" rx="14" fill="#111f39" stroke="#3d5f86"/>
+      <path d="M163 50 H199 M163 58 H199 M163 66 H199" stroke="#69cde7" stroke-width="3" stroke-linecap="round"/>
+      <text x="181" y="93" text-anchor="middle" fill="#b9ccdf" font-size="12" font-weight="600">PIPELINE</text>
+    </g>
+    <g>
+      <rect x="290" y="25" width="78" height="88" rx="14" fill="#131f3b" stroke="#555d91"/>
+      <rect x="311" y="46" width="36" height="28" rx="6" fill="none" stroke="#8a8cf2" stroke-width="3"/>
+      <path d="M319 40 V46 M329 40 V46 M339 40 V46 M319 74 V80 M329 74 V80 M339 74 V80" stroke="#8a8cf2" stroke-width="2"/>
+      <text x="329" y="93" text-anchor="middle" fill="#b9ccdf" font-size="12" font-weight="600">INFER</text>
+    </g>
+    <g>
+      <rect x="438" y="25" width="78" height="88" rx="14" fill="#161f3c" stroke="#665896"/>
+      <path d="M459 69 L475 53 L489 62 L500 48" fill="none" stroke="#a887f3" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="459" cy="69" r="3" fill="#a887f3"/>
+      <circle cx="475" cy="53" r="3" fill="#a887f3"/>
+      <circle cx="489" cy="62" r="3" fill="#a887f3"/>
+      <circle cx="500" cy="48" r="3" fill="#a887f3"/>
+      <text x="477" y="93" text-anchor="middle" fill="#b9ccdf" font-size="12" font-weight="600">EVENTS</text>
+    </g>
+
+    <circle cx="8" cy="139" r="3" fill="#55d8e5"/>
+    <circle cx="20" cy="139" r="3" fill="#55d8e5" opacity="0.65"/>
+    <circle cx="32" cy="139" r="3" fill="#55d8e5" opacity="0.35"/>
+    <text x="50" y="144" fill="#6f89a8" font-size="12" letter-spacing="1.2">INGEST  →  PROCESS  →  RECOVER  →  DELIVER</text>
+  </g>
+</svg>
