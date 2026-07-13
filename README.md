@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/header.svg" width="100%" alt="Seonghyun Eom — Real-time Video AI and Inference Services" />
+  <img src="./assets/header.svg?v=2" width="100%" alt="Seonghyun Eom — AI Inference Platform Engineer" />
 </p>
 
 <p align="center">
