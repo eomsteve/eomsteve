@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <sub>Software engineer working across real-time video, backend services, and product interfaces.</sub>
+  <sub>실시간 비디오 시스템을 중심으로 백엔드와 프론트엔드를 넘나들며 제품을 만듭니다.</sub>
 </p>
 
 ### stack
