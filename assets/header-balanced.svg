@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="160" viewBox="0 0 1200 160" role="img" aria-labelledby="title desc">
+  <title id="title">Seonghyun Eom — Software Engineer</title>
+  <desc id="desc">A flat, minimal banner introducing Seonghyun Eom.</desc>
+
+  <rect x="0.5" y="0.5" width="1199" height="159" fill="#0d1117" stroke="#30363d"/>
+  <rect width="5" height="160" fill="#3fb950"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="44" y="45" fill="#8b949e" font-size="14" letter-spacing="1.2">eomsteve</text>
+    <text x="42" y="91" fill="#f0f6fc" font-size="32" font-weight="700" letter-spacing="0.6">SEONGHYUN EOM</text>
+    <text x="44" y="124" fill="#c9d1d9" font-size="16">software engineer</text>
+
+    <line x1="650" y1="42" x2="650" y2="118" stroke="#30363d"/>
+    <text x="700" y="75" fill="#f0f6fc" font-size="16">video systems</text>
+    <text x="700" y="107" fill="#8b949e" font-size="15">backend / frontend</text>
+  </g>
+</svg>
