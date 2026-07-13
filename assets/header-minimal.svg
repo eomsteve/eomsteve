@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="190" viewBox="0 0 1200 190" role="img" aria-labelledby="title desc">
+  <title id="title">Seonghyun Eom — AI Inference Platform Engineer</title>
+  <desc id="desc">A minimal flat banner with Seonghyun Eom's name, role, and real-time video service path.</desc>
+
+  <rect x="0.5" y="0.5" width="1199" height="189" fill="#0d1117" stroke="#30363d"/>
+  <rect x="0" y="0" width="6" height="190" fill="#3fb950"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="46" y="59" fill="#8b949e" font-size="15" letter-spacing="1.5">eomsteve / profile</text>
+    <text x="44" y="105" fill="#f0f6fc" font-size="34" font-weight="700" letter-spacing="0.8">SEONGHYUN EOM</text>
+    <text x="46" y="139" fill="#c9d1d9" font-size="17">AI inference platform engineer</text>
+
+    <line x1="650" y1="48" x2="650" y2="142" stroke="#30363d"/>
+    <text x="700" y="82" fill="#8b949e" font-size="14">service path</text>
+    <text x="700" y="118" fill="#f0f6fc" font-size="17">camera stream  →  inference  →  event</text>
+    <text x="700" y="148" fill="#3fb950" font-size="14">latency / reliability / recovery</text>
+  </g>
+</svg>
