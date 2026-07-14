@@ -62,9 +62,9 @@ No other elements are animated in the approved design (no eye-blink was ultimate
 ## Scope / file plan
 
 - Archive current `assets/header-pixel.svg` and `assets/header-pixel-dark.svg` (move to `assets/archive/` rather than deleting) along with the never-used `header.svg`, `header-minimal.svg`, `header-balanced.svg` experiments.
-- Produce new `assets/header-pixel-dark.svg` (dark, approved above) and `assets/header-pixel.svg` (light variant, colors adjusted per above) at the final banner dimensions (the brainstorming mockup used a 300×160 character-scene box; the actual header needs to be composed alongside or instead of name/title text — see open question below).
+- Produce new `assets/header-pixel-dark.svg` (dark, approved above) and `assets/header-pixel.svg` (light variant, colors adjusted per above) at the final banner dimensions — see Layout decision below.
 - README.md's `<picture>` block, stack-icons section, and contribution-snake section are unchanged.
 
-## Open question for the implementation plan
+## Layout decision (resolved 2026-07-14)
 
-The current live banner (`header-pixel-dark.svg`) is a **1200×200 wide name/title banner** with the pixel scene as a small side illustration next to large "SEONGHYUN EOM" text. The approved mockup above was designed and reviewed as a **300×160 standalone character scene** with no name/title text in frame. The implementation plan needs to resolve how these combine — e.g., keep the existing 1200×200 banner layout with name/title text on the left and swap in this new, larger/more detailed scene as the right-side illustration (scaled to fit), versus dropping the text banner and using the scene alone with the name/title placed elsewhere in the README. Surface this choice explicitly before implementing.
+**Option (a) — approved.** Keep the existing 1200×200 banner layout with the "SEONGHYUN EOM" name/title text block on the left (unchanged: `eomsteve.exe`, name, role line, accent bars). Replace only the right-side illustration — currently the pixel CCTV camera + terminal — with the new, larger cat scene (monitor, desk figures, cat), scaled down from the 300×160 brainstorming mockup to fit the illustration's existing slot (roughly `translate(730 23)` in the current SVG, ~470px available width × ~160px height). The name/title text block itself is not redesigned in this pass.
